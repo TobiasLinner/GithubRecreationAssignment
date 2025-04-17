@@ -66,6 +66,27 @@ button:hover {
   border-bottom-style: solid;
   border-bottom-width: 1px;
 }
+.btn-secondary-div{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.8rem;
+  width: 100%;
+  max-width: 45rem;
+}
+.button-secondary {
+  background: hsl(var(--container-bg-color));
+  color: white;
+  border: 1px solid #30363d;
+  border-radius: 10rem;
+  padding: 0.65rem;
+}
+.button-secondary:hover {
+  background-color: hsl(210, 17%, 14%);
+  border: 1px solid #30363d;
+  border-radius: 10rem;
+  padding: 0.65rem;
+}
 .textform-container{
   background: var(--container-bg-color);
   border: 0.1rem solid var(--border-color);
@@ -75,10 +96,15 @@ button:hover {
   display:flex;
   justify-content: space-between;
   width: 100%;
+  max-width: 45rem;
 }
 .textform-container svg{
   color: white;
   filter: invert(61%) sepia(9%) saturate(334%) hue-rotate(174deg) brightness(97%) contrast(86%);
+}
+button svg{
+  filter: 
+  brightness(0) saturate(100%) invert(43%) sepia(14%) saturate(472%) hue-rotate(175deg) brightness(95%) contrast(91%);
 }
 .textform-container:focus-within { 
   outline: 1px solid blue 
