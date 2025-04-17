@@ -7,15 +7,16 @@ main h1{
 }
 main h2{
   font-weight: 600;
-  margin: 0.5rem 0rem;
+  margin: 1rem 0rem;
 }
 main h3{
   font-weight: 400;
   margin: 0;
   margin-bottom: 0.5rem;
+  font-size: 1rem
 }
 .sidebar {
-  background-color: var(--aside-bg-color);
+  background-color: var(--container-bg-color);
   color: rgb(240, 246, 252);
   padding-left: 1rem;
   padding-top: 1rem;
@@ -56,15 +57,41 @@ button {
   border: none;
 }
 button:hover {
- background-color: rgba(58, 58, 59, 0.8);
- outline: 0.175em solid rgba(58, 58, 59, 0.8);
-border-radius: 0.05em;
+ background-color: hsl(210, 17%, 14%);
+ outline: 0.175em solid hsl(210, 17%, 14%);
+  border-radius: 0.05em;
 }
 .border-bottom {
   border-bottom-color: rgb(61, 68, 77);
   border-bottom-style: solid;
   border-bottom-width: 1px;
 }
+.textform-container{
+  background: var(--container-bg-color);
+  border: 0.1rem solid var(--border-color);
+  border-radius: 0.75rem;
+  height: 2.75rem;
+  padding: 0rem 1rem;
+  display:flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.textform-container svg{
+  color: white;
+  filter: invert(61%) sepia(9%) saturate(334%) hue-rotate(174deg) brightness(97%) contrast(86%);
+}
+.textform-container:focus-within { 
+  outline: 1px solid blue 
+}
+.textform{
+  flex-grow: 2;
+  background-color: transparent;
+  border: none;
+}
+.textform:focus{
+  outline: none;
+}
+
 @media (width >= 48rem) {
   .sidebar {
     display: flex;

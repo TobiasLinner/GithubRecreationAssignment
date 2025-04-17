@@ -4,7 +4,7 @@ header {
   height: 4rem;
   margin: 0;
   top: 0;
-  background: var(--background);
+  background: var(--container-bg-color);
   display: flex;
   justify-content: center;
   align-items: center;
