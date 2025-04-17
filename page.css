@@ -97,15 +97,22 @@ button:hover {
     display: flex;
     position: fixed;
     left: 0;
+    top: 4rem;
     height: calc(100svh - 4rem);
     max-width: 55rem;
     width: 20rem;
     border-right: 0.1rem solid var(--border-color);
+  }
+  main{
+    margin-left: 21rem;
   }
 }
 
 @media (width >= 86rem) {
   .sidebar {
     width: 21rem;
+  }
+  main{
+    margin-left: 22rem;
   }
 }

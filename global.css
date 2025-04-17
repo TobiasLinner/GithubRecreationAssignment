@@ -21,6 +21,7 @@
 * {
   box-sizing: border-box;
 }
+
 a {
   color: var(--foreground);
   text-decoration: none;
@@ -56,5 +57,4 @@ body {
 .container {
   width: 100%;
   margin: auto;
-  max-width: 48rem;
 }
