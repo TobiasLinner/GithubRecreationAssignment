@@ -61,11 +61,6 @@ button:hover {
  outline: 0.175em solid hsl(210, 17%, 14%);
   border-radius: 0.05em;
 }
-.border-bottom {
-  border-bottom-color: rgb(61, 68, 77);
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-}
 .btn-secondary-div{
   display: flex;
   align-items: center;
@@ -91,16 +86,32 @@ button:hover {
   background: var(--container-bg-color);
   border: 0.1rem solid var(--border-color);
   border-radius: 0.75rem;
-  height: 2.75rem;
-  padding: 0rem 1rem;
+  padding: 0.65rem 1rem;
   display:flex;
   justify-content: space-between;
   width: 100%;
   max-width: 45rem;
 }
+.textform-container--inner {
+  background: var(--container-bg-color-inner);
+  padding: 0.4rem 1rem;
+  border-radius: var(--border-radius-secondary);
+}
 .textform-container svg{
   color: white;
   filter: invert(61%) sepia(9%) saturate(334%) hue-rotate(174deg) brightness(97%) contrast(86%);
+}
+.article-repository{
+  background: var(--container-bg-color);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.article-repository ul li a{
+  display: flex;
+  align-items: center;
+  gap: 0.40rem;
 }
 button svg{
   filter: 
