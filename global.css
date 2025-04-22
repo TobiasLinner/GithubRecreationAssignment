@@ -15,6 +15,7 @@
     --foreground: #fff;
     --accent: #eee;
     --icon-colors: #9198a1;
+    --txt-color-primary: hsl(214, 8%, 60%);
     --border-color: #3d444d;
     --container-bg-color:hsl(216, 28%, 7%);
     --container-bg-color-inner:hsl(214, 25%, 11%);
@@ -34,6 +35,7 @@ ul{
   padding: 0;
   margin: 0;
 }
+
 li{
 }
 li img{

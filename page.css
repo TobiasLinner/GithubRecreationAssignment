@@ -101,7 +101,7 @@ button:hover {
   color: white;
   filter: invert(61%) sepia(9%) saturate(334%) hue-rotate(174deg) brightness(97%) contrast(86%);
 }
-.article-repository{
+.article{
   background: var(--container-bg-color);
   display: flex;
   flex-direction: column;
@@ -110,10 +110,13 @@ button:hover {
   width: 100%;
   max-width: 45rem;
 }
-.article-repository ul li a{
+.article ul li a{
   display: flex;
   align-items: center;
   gap: 0.40rem;
+}
+.article a:hover{
+text-decoration: underline;
 }
 button svg{
   filter: 
@@ -129,6 +132,26 @@ button svg{
 }
 .textform:focus{
   outline: none;
+}
+.learn-section{
+margin-top: 2rem;
+}
+.circle-star{
+  background: #15191f;
+  border-radius: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+
+}
+.circle-star-text{
+margin: 0;
+color: var(--txt-color-primary);
+}
+.circle-star-svg{
+  filter: invert(69%) sepia(10%) saturate(292%) hue-rotate(174deg) brightness(86%) contrast(89%);
 }
 
 @media (width >= 48rem) {
