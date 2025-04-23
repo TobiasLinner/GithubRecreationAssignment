@@ -181,6 +181,9 @@ flex: 1;
   margin-top: 1rem;
 }
 @media (width >= 48rem) {
+    .show-on-mobile{
+    display: none;
+}
   .sidebar {
     display: flex;
     position: fixed;

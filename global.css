@@ -25,7 +25,9 @@
 * {
   box-sizing: border-box;
 }
-html{ width: 100%;}
+html{ 
+  width: 100%;
+}
 a {
   color: var(--foreground);
   text-decoration: none;
