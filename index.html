@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="global.css" />
     <link rel="stylesheet" href="header.css" />
     <link rel="stylesheet" href="page.css" />
+    <link rel="stylesheet" href="aside-rightside.css">
   </head>
   <body>
     <header>
@@ -31,8 +32,9 @@
           >
             <path
               d="M1 2.75A.75.75 0 0 1 1.75 2h12.5a.75.75 0 0 1 0 1.5H1.75A.75.75 0 0 1 1 2.75Zm0 5A.75.75 0 0 1 1.75 7h12.5a.75.75 0 0 1 0 1.5H1.75A.75.75 0 0 1 1 7.75ZM1.75 12h12.5a.75.75 0 0 1 0 1.5H1.75a.75.75 0 0 1 0-1.5Z"
-            ></path></svg
-        ></span>
+            ></path>
+          </svg>
+          </span>
         <a href="/index.html">
           <img
             src="/images/icons/github-mark-white.png"
@@ -113,13 +115,11 @@
                 version="1.1"
                 width="16"
                 data-view-component="true"
-                class="octicon octicon-plus"
-              >
+                class="octicon octicon-plus">
                 <path
                   d="M7.75 2a.75.75 0 0 1 .75.75V7h4.25a.75.75 0 0 1 0 1.5H8.5v4.25a.75.75 0 0 1-1.5 0V8.5H2.75a.75.75 0 0 1 0-1.5H7V2.75A.75.75 0 0 1 7.75 2Z"
                 ></path>
               </svg>
-
               <svg
                 style="
                   filter: invert(65%) sepia(12%) saturate(242%)
@@ -197,8 +197,9 @@
           >
             <path
               d="M2.8 2.06A1.75 1.75 0 0 1 4.41 1h7.18c.7 0 1.333.417 1.61 1.06l2.74 6.395c.04.093.06.194.06.295v4.5A1.75 1.75 0 0 1 14.25 15H1.75A1.75 1.75 0 0 1 0 13.25v-4.5c0-.101.02-.202.06-.295Zm1.61.44a.25.25 0 0 0-.23.152L1.887 8H4.75a.75.75 0 0 1 .6.3L6.625 10h2.75l1.275-1.7a.75.75 0 0 1 .6-.3h2.863L11.82 2.652a.25.25 0 0 0-.23-.152Zm10.09 7h-2.875l-1.275 1.7a.75.75 0 0 1-.6.3h-3.5a.75.75 0 0 1-.6-.3L4.375 9.5H1.5v3.75c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25Z"
-            ></path></svg
-        ></span>
+            ></path>
+          </svg>
+          </span>
         <img class="profile-img-header" src="/images/profile.jpg" alt="" />
       </div>
     </header>
@@ -207,7 +208,7 @@
         <div class="sidebar-container">
           <div class="sidebar-context-buttons">
             <img class="profile-img-sidebar" src="/images/profile.jpg" alt="" />
-            <button class="bold flex">
+            <button class="bold flex center">
               TobiasLinner
               <div class="material-symbols-rounded" style="color: #9198a1">
                 arrow_drop_down
@@ -277,10 +278,12 @@
         </div>
       </aside>
       <main class="flex">
-        <div class="container">
-          <h2>Home</h2>
+        <div class="main-content">
+        <!-- <div class="container"> -->
+            
           <section class="flex container">
             <div class="container">
+              <h2>Home</h2>
               <h3>Copilot</h3>
               <div class="flex textform-container">
                 <input class="textform" type="text" placeholder="Ask Copilot" />
@@ -418,7 +421,7 @@
                   </ul>
                 </article>
               </div>
-              <section class="learn-section flex gap-1">
+              <section class="learn-section flex center gap-1">
                 <span class="circle-star">
                   <svg
                     aria-hidden="true"
@@ -438,6 +441,10 @@
               </section>
             </div>
           </section>
+        </div>
+        <aside class="aside-rightside border-around">
+<p>Latest changes</p>
+        </aside>
         </div>
       </main>
     </div>

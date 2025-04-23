@@ -1,0 +1,15 @@
+.aside-rightside{
+    display: none;
+    width: 20rem;
+    margin-left: 2rem;
+}
+.aside-rightside p{
+    padding: 0;
+    margin: 0;
+}
+
+@media (width >= 79rem) {
+  .aside-rightside{
+    display: block;
+  }
+}
