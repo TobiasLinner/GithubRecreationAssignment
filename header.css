@@ -91,11 +91,21 @@ header li {
 .nav-icons {
   display: none;
 }
+.nav-icons li:hover {
+  background-color: hsl(210, 17%, 14%);
+  outline: 0rem solid hsl(210, 17%, 14%);
+  border-radius: 0.375rem;
+}
 
 .always-visible-icons {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+}
+.always-visible-icons span:hover{
+  background-color: hsl(210, 17%, 14%);
+  outline: 0.01rem solid hsl(210, 17%, 14%);
+  border-radius: 0.375rem;
 }
 .profile-img-header {
   border-radius: 100px;

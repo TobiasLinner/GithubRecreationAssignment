@@ -84,6 +84,7 @@ li.timeline-item .timeline-link:hover {
 @media (width >= 79rem) {
   .aside-rightside{
     display: block;
+      height:fit-content;
   }
 }
 

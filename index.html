@@ -16,7 +16,7 @@
   <body>
     <header>
       <div class="left-section">
-        <span class="material-symbols-rounded header-border icon-font-size"
+        <span class="header-border icon-font-size"
           ><svg
             style="
               filter: invert(65%) sepia(12%) saturate(242%) hue-rotate(174deg)
@@ -47,7 +47,7 @@
 
       <div class="middle-section">
         <div class="search-container">
-          <div class="material-symbols-rounded header-border search-icon">
+          <div class="header-border search-icon">
             search
           </div>
           <input
@@ -138,7 +138,7 @@
                 ></path>
               </svg>
             </li>
-            <li class="material-symbols-rounded header-border icon-font-size">
+            <li class="header-border icon-font-size">
               <svg
                 style="
                   filter: invert(65%) sepia(12%) saturate(242%)
@@ -158,7 +158,7 @@
                 ></path>
               </svg>
             </li>
-            <li class="material-symbols-rounded header-border icon-font-size">
+            <li class="header-border icon-font-size">
               <svg
                 style="
                   filter: invert(65%) sepia(12%) saturate(242%)
@@ -181,7 +181,7 @@
         </nav>
       </div>
       <div class="always-visible-icons">
-        <span class="material-symbols-rounded header-border icon-font-size"
+        <span class="header-border icon-font-size"
           ><svg
             style="
               filter: invert(65%) sepia(12%) saturate(242%) hue-rotate(174deg)
@@ -203,7 +203,7 @@
         <img class="profile-img-header" src="/images/profile.jpg" alt="" />
       </div>
     </header>
-    <div class="container">
+    <div class="wrapper flex ">
       <aside class="sidebar border bottom">
         <div class="sidebar-container">
           <div class="sidebar-context-buttons">
@@ -216,7 +216,7 @@
             </button>
           </div>
           <div class="desktop-repo">
-            <p>Top Repositories</p>
+            <p class="bold" style="font-size: 0.9rem; margin: 2rem 0rem 0.5rem 0rem;">Top repositories</p>
             <div class="flex textform-container textform-container--inner">
               <input
                 class="textform"
@@ -421,7 +421,9 @@
                   </ul>
                 </article>
               </div>
-              <section class="learn-section flex center gap-1">
+              <section class="learn-section flex flex-column center gap-1">
+                <span class="learn-section-inner">
+                  <div class="flex center gap-1">
                 <span class="circle-star">
                   <svg
                   aria-hidden="true"
@@ -437,7 +439,32 @@
                     ></path>
                   </svg>
                 </span>
-                <p class="circle-star-text">Learn with a tutorial project</p>
+                  <p class="circle-star-text">Learn with a tutorial project</p>
+                  </div>
+                  <button class="button-dots">
+                    <svg style="filter: brightness(0) saturate(100%) invert(94%) sepia(11%) saturate(125%) hue-rotate(174deg) brightness(81%) contrast(97%);" aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal color-fg-default">
+    <path d="M8 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm13 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path>
+</svg>
+                  </button>
+                </span>
+                <div class="dashboard-grid flex">
+                    <a class="card border-around" href="">
+                      <h2>Introduction to GitHub</h2>
+                      <p>Get started using GitHub in less than an hour.</p>
+                    </a>
+                    <a class="card border-around" href="">
+                    <h2>GitHub Pages</h2>
+                    <p>Create a site or blog from your GitHub repositories...</p>
+                                        </a>
+                    <a class="card border-around" href="">
+                    <h2>Code with Copilot</h2>
+                    <p>Develop with AI-powered code suggestions...</p>
+                                        </a>
+                    <a class="card border-around" href="">
+                    <h2>Hello GitHub Actions</h2>
+                    <p>Create a GitHub Action and use it in a workflow.</p>
+                                        </a>
+                </div>
               </section>
             </div>
             </div>
