@@ -278,65 +278,65 @@
         </div>
       </aside>
       <main class="flex">
-        <div class="main-content">
+        <section class="main-section flex container">
+          <div class="main-content">
+          <div class="container">
+            <h2>Home</h2>
+            <h3>Copilot</h3>
+            <div class="flex textform-container">
+              <input class="textform" type="text" placeholder="Ask Copilot" />
+              <button style="cursor: pointer">
+                <svg
+                  aria-hidden="true"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                  width="16"
+                  data-view-component="true"
+                  class="octicon octicon-paper-airplane Button-visual"
+                >
+                  <path
+                    d="M.989 8 .064 2.68a1.342 1.342 0 0 1 1.85-1.462l13.402 5.744a1.13 1.13 0 0 1 0 2.076L1.913 14.782a1.343 1.343 0 0 1-1.85-1.463L.99 8Zm.603-5.288L2.38 7.25h4.87a.75.75 0 0 1 0 1.5H2.38l-.788 4.538L13.929 8Z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+            <div class="btn-secondary-div">
+              <button class="button-secondary flex gap-1">
+                <svg
+                  aria-hidden="true"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                  width="16"
+                  data-view-component="true"
+                  class="octicon octicon-terminal"
+                >
+                  <path
+                    d="M0 2.75C0 1.784.784 1 1.75 1h12.5c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0 1 14.25 15H1.75A1.75 1.75 0 0 1 0 13.25Zm1.75-.25a.25.25 0 0 0-.25.25v10.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V2.75a.25.25 0 0 0-.25-.25ZM7.25 8a.749.749 0 0 1-.22.53l-2.25 2.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L5.44 8 3.72 6.28a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l2.25 2.25c.141.14.22.331.22.53Zm1.5 1.5h3a.75.75 0 0 1 0 1.5h-3a.75.75 0 0 1 0-1.5Z"
+                  ></path>
+                </svg>
+                Show directory exists
+              </button>
+              <button class="button-secondary flex gap-1">
+                <svg
+                  aria-hidden="true"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                  width="16"
+                  data-view-component="true"
+                  class="octicon octicon-code"
+                >
+                  <path
+                    d="m11.28 3.22 4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L13.94 8l-3.72-3.72a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215Zm-6.56 0a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L2.06 8l3.72 3.72a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L.47 8.53a.75.75 0 0 1 0-1.06Z"
+                  ></path>
+                </svg>
+                Explain stack and heap memory
+              </button>
+            </div>
         <!-- <div class="container"> -->
             
-          <section class="flex container">
-            <div class="container">
-              <h2>Home</h2>
-              <h3>Copilot</h3>
-              <div class="flex textform-container">
-                <input class="textform" type="text" placeholder="Ask Copilot" />
-                <button style="cursor: pointer">
-                  <svg
-                    aria-hidden="true"
-                    height="16"
-                    viewBox="0 0 16 16"
-                    version="1.1"
-                    width="16"
-                    data-view-component="true"
-                    class="octicon octicon-paper-airplane Button-visual"
-                  >
-                    <path
-                      d="M.989 8 .064 2.68a1.342 1.342 0 0 1 1.85-1.462l13.402 5.744a1.13 1.13 0 0 1 0 2.076L1.913 14.782a1.343 1.343 0 0 1-1.85-1.463L.99 8Zm.603-5.288L2.38 7.25h4.87a.75.75 0 0 1 0 1.5H2.38l-.788 4.538L13.929 8Z"
-                    ></path>
-                  </svg>
-                </button>
-              </div>
-              <div class="btn-secondary-div">
-                <button class="button-secondary flex gap-1">
-                  <svg
-                    aria-hidden="true"
-                    height="16"
-                    viewBox="0 0 16 16"
-                    version="1.1"
-                    width="16"
-                    data-view-component="true"
-                    class="octicon octicon-terminal"
-                  >
-                    <path
-                      d="M0 2.75C0 1.784.784 1 1.75 1h12.5c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0 1 14.25 15H1.75A1.75 1.75 0 0 1 0 13.25Zm1.75-.25a.25.25 0 0 0-.25.25v10.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V2.75a.25.25 0 0 0-.25-.25ZM7.25 8a.749.749 0 0 1-.22.53l-2.25 2.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L5.44 8 3.72 6.28a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l2.25 2.25c.141.14.22.331.22.53Zm1.5 1.5h3a.75.75 0 0 1 0 1.5h-3a.75.75 0 0 1 0-1.5Z"
-                    ></path>
-                  </svg>
-                  Show directory exists
-                </button>
-                <button class="button-secondary flex gap-1">
-                  <svg
-                    aria-hidden="true"
-                    height="16"
-                    viewBox="0 0 16 16"
-                    version="1.1"
-                    width="16"
-                    data-view-component="true"
-                    class="octicon octicon-code"
-                  >
-                    <path
-                      d="m11.28 3.22 4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L13.94 8l-3.72-3.72a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215Zm-6.56 0a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L2.06 8l3.72 3.72a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L.47 8.53a.75.75 0 0 1 0-1.06Z"
-                    ></path>
-                  </svg>
-                  Explain stack and heap memory
-                </button>
-              </div>
               <div class="mobile-repo">
                 <p>Top Repositories</p>
                 <article class="article border-around">
@@ -424,27 +424,69 @@
               <section class="learn-section flex center gap-1">
                 <span class="circle-star">
                   <svg
-                    aria-hidden="true"
+                  aria-hidden="true"
                     height="16"
                     viewBox="0 0 16 16"
                     version="1.1"
                     width="16"
                     data-view-component="true"
                     class="circle-star-svg"
-                  >
+                    >
                     <path
-                      d="M8.5.75a.75.75 0 0 0-1.5 0v5.19L4.391 3.33a.75.75 0 1 0-1.06 1.061L5.939 7H.75a.75.75 0 0 0 0 1.5h5.19l-2.61 2.609a.75.75 0 1 0 1.061 1.06L7 9.561v5.189a.75.75 0 0 0 1.5 0V9.56l2.609 2.61a.75.75 0 1 0 1.06-1.061L9.561 8.5h5.189a.75.75 0 0 0 0-1.5H9.56l2.61-2.609a.75.75 0 0 0-1.061-1.06L8.5 5.939V.75Z"
+                    d="M8.5.75a.75.75 0 0 0-1.5 0v5.19L4.391 3.33a.75.75 0 1 0-1.06 1.061L5.939 7H.75a.75.75 0 0 0 0 1.5h5.19l-2.61 2.609a.75.75 0 1 0 1.061 1.06L7 9.561v5.189a.75.75 0 0 0 1.5 0V9.56l2.609 2.61a.75.75 0 1 0 1.06-1.061L9.561 8.5h5.189a.75.75 0 0 0 0-1.5H9.56l2.61-2.609a.75.75 0 0 0-1.061-1.06L8.5 5.939V.75Z"
                     ></path>
                   </svg>
                 </span>
                 <p class="circle-star-text">Learn with a tutorial project</p>
               </section>
             </div>
+            </div>
           </section>
+          <aside class="aside-rightside border-around-secondary">
+  <p>Latest changes</p>
+  <ul class="timeline"> 
+    <li class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+            <span class="timeline-time">10 hours ago</span>
+            <p class="timeline-description">Updates to security configuration settings for customers in existing grace periods</p>
         </div>
-        <aside class="aside-rightside border-around">
-<p>Latest changes</p>
-        </aside>
+    </li>
+
+    <li class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+            <span class="timeline-time">11 hours ago</span>
+            <p class="timeline-description">GitHub Actions workflow security analysis with CodeQL is now generally available</p>
+        </div>
+    </li>
+
+    <li class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+            <span class="timeline-time">16 hours ago</span>
+            <p class="timeline-description">Dependabot now lets you schedule update frequencies with cron expressions</p>
+        </div>
+    </li>
+
+    <li class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+            <span class="timeline-time">17 hours ago</span>
+            <p class="timeline-description">Reminder for changes to npm replication feeds APIs</p>
+        </div>
+    </li>
+
+    <li class="timeline-item">
+        <div class="timeline-dot no-dot"></div>
+        <div class="timeline-content">
+            <a href="#" class="timeline-link">View changelog →</a>
+        </div>
+    </li>
+</ul>
+
+          </aside>
+        </div>
         </div>
       </main>
     </div>

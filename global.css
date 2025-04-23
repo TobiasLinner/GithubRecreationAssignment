@@ -80,8 +80,7 @@ body {
 }
 
 .container {
-  width: 100%;
-  margin: auto;
+  flex: 1;
 }
 .gap-1{
   gap: 0.5rem;
@@ -89,6 +88,11 @@ body {
 .border-around {
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius-primary);
+  padding: 0.75rem 0.5rem;
+}
+.border-around-secondary {
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-secondary);
   padding: 0.75rem 0.5rem;
 }
 .border-bottom {

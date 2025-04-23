@@ -1,6 +1,8 @@
 main {
   padding: 1rem;
-  
+  padding-top: 1.5rem;
+  max-width:  100%;
+  flex: 1;
 }
 main h1{ 
   display: none;
@@ -17,8 +19,8 @@ main h3{
 }
 .main-content{
   display:flex;
+  flex-direction: column;
   gap: 1.5rem;
-  padding: 1.5rem;
   width: 100%;
 }
 .sidebar {
@@ -147,6 +149,9 @@ button svg{
 .learn-section{
 margin-top: 2rem;
 }
+.main-section{
+  max-width: 52rem;
+}
 .circle-star{
   background: #15191f;
   border-radius: 100%;
@@ -188,7 +193,7 @@ flex: 1;
     border-right: 0.1rem solid var(--border-color);
   }
     .main-content {
-    flex-direction: column;
+    flex-direction: row;
     
   }
   .desktop-repo{
@@ -208,5 +213,6 @@ flex: 1;
   }
   main{
     margin-left: 22rem;
+    padding-top: 2.5rem;
   }
 }
