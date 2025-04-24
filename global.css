@@ -46,6 +46,7 @@ li img{
   border-radius: 100%;
   height: 1rem;
 }
+
 body {
 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
   font-size: 0.875;
@@ -77,6 +78,9 @@ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helveti
 .bold{
   font-weight: 600;
 }
+.semi-bold{
+  font-weight: 400;
+}
 
 .grow-1 {
   flex: 1;
@@ -95,6 +99,9 @@ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helveti
 }
 .gap-1{
   gap: 0.5rem;
+}
+.gap-2{
+  gap: 2.5rem;
 }
 .border-around {
   border: 1px solid var(--border-color);

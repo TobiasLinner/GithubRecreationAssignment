@@ -48,7 +48,7 @@
       <div class="middle-section">
         <div class="search-container">
           <div class="header-border search-icon">
-            search
+            🔍
           </div>
           <input
             type="text"
@@ -216,7 +216,14 @@
             </button>
           </div>
           <div class="desktop-repo">
-            <p class="bold" style="font-size: 0.9rem; margin: 2rem 0rem 0.5rem 0rem;">Top repositories</p>
+            <div class="container-repo">
+              <p class="bold" style="font-size: 0.9rem; margin: 2rem 0rem 0.5rem 0rem;">Top repositories</p>
+              <button>
+                <svg style="filter: brightness(0) saturate(100%) invert(99%) sepia(0%) saturate(2%) hue-rotate(203deg) brightness(106%) contrast(101%);" aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo">
+    <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"></path>
+</svg>
+New</button>
+            </div>
             <div class="flex textform-container textform-container--inner">
               <input
                 class="textform"
@@ -226,58 +233,76 @@
             </div>
             <ul class="flex flex-column">
               <li>
-                <a href="">
+                <a class="flex gap-1 center" href="">
                   <img src="/images/profile.jpg" alt="" />
-                  TobiasLinner/LoanSystem
+                    TobiasLinner/LoanSystem
                 </a>
               </li>
               <li>
-                <a href="">
+                <a class="flex gap-1 center" href="">
                   <img src="/images/profile.jpg" alt="" />
                   TobiasLinner/ScoutApp
                 </a>
               </li>
               <li>
-                <a href="">
+                <a class="flex gap-1 center" href="">
                   <img src="/images/profile.jpg" alt="" />
                   TobiasLinner/LoanSystem
                 </a>
               </li>
               <li>
-                <a href="">
+                <a class="flex gap-1 center" href="">
                   <img src="/images/profile.jpg" alt="" />
                   TobiasLinner/Foodora
                 </a>
               </li>
               <li>
-                <a href="">
+                <a class="flex gap-1 center" href="">
                   <img src="/images/profile.jpg" alt="" />
                   TobiasLinner/MusikBlazor
                 </a>
               </li>
               <li>
-                <a href="">
+                <a class="flex gap-1 center" href="">
                   <img src="/images/profile.jpg" alt="" />
                   TobiasLinner/Foodora
                 </a>
               </li>
               <li>
-                <a href="">
+                <a class="flex gap-1 center" href="">
                   <img src="/images/profile.jpg" alt="" />
                   TobiasLinner/LinqTestExercises
                 </a>
               </li>
               <li>
-                <a href="">
+                <a class="flex gap-1 center" href="">
                   <img src="/images/profile.jpg" alt="" />
                   TobiasLinner/MauiApp1
                 </a>
               </li>
             </ul>
+            <p class="">Your teams</p>
+                  <div
+                    class="flex textform-container textform-container--inner"
+                  >
+                    <input
+                      class="textform"
+                      type="text"
+                      placeholder="Find a team..."
+                    />
+                  </div>
+                  <ul class="flex flex-column">
+                    <li>
+                <a class="flex gap-1 center" href="">
+                        <img src="/images/profile.jpg" alt="" />
+                        BYSuvNet/tta-coders
+                      </a>
+                    </li>
+
           </div>
         </div>
       </aside>
-      <main class="flex">
+      <main class="flex gap-2">
         <section class="main-section flex container">
           <div class="main-content">
           <div class="container">
@@ -469,53 +494,54 @@
             </div>
             </div>
           </section>
-          <aside class="aside-rightside border-around-secondary">
-  <p>Latest changes</p>
-  <ul class="timeline"> 
-    <li class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
-            <span class="timeline-time">10 hours ago</span>
-            <p class="timeline-description">Updates to security configuration settings for customers in existing grace periods</p>
-        </div>
-    </li>
+          <aside style="width: 356px;" class="aside-rightside border-around-secondary">
 
-    <li class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
-            <span class="timeline-time">11 hours ago</span>
+              <p class="bold">Latest changes</p>
+              <ul class="timeline semi-bold"> 
+                <li class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <span class="timeline-time">10 hours ago</span>
+                    <p class="timeline-description">Updates to security configuration settings for customers in existing grace periods</p>
+                  </div>
+                </li>
+                
+                <li class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <span class="timeline-time">11 hours ago</span>
             <p class="timeline-description">GitHub Actions workflow security analysis with CodeQL is now generally available</p>
         </div>
     </li>
-
+    
     <li class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
-            <span class="timeline-time">16 hours ago</span>
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <span class="timeline-time">16 hours ago</span>
             <p class="timeline-description">Dependabot now lets you schedule update frequencies with cron expressions</p>
-        </div>
-    </li>
-
-    <li class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
+          </div>
+        </li>
+        
+        <li class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
             <span class="timeline-time">17 hours ago</span>
             <p class="timeline-description">Reminder for changes to npm replication feeds APIs</p>
         </div>
     </li>
 
     <li class="timeline-item">
-        <div class="timeline-dot no-dot"></div>
-        <div class="timeline-content">
-            <a href="#" class="timeline-link">View changelog →</a>
-        </div>
+      <div class="timeline-dot no-dot"></div>
+      <div class="timeline-content">
+        <a href="#" class="timeline-link">View changelog →</a>
+      </div>
     </li>
-</ul>
-
-          </aside>
-        </div>
-        </div>
-      </main>
-    </div>
-  </body>
+  </ul>
+  
+</aside>
+</div>
+</div>
+</main>
+</div>
+</body>
 </html>
