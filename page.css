@@ -314,6 +314,7 @@ widtH: auto;  }
 @media (width >= 86rem) {
   .sidebar {
     width: 21rem;
+    padding-right: 1.5rem;
   }
   /* main{
     margin-left: 22rem;
