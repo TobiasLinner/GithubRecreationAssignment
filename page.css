@@ -167,6 +167,7 @@ button svg{
   flex-grow: 2;
   background-color: transparent;
   border: none;
+  color: white;
 }
 
 .textform::placeholder{
@@ -308,11 +309,15 @@ main{
   }
   .wrapper{
     flex-direction: row;
-widtH: auto;  }
+widtH: auto;  
+min-height: 100vh;
+}
+
 }
 
 @media (width >= 86rem) {
   .sidebar {
+    height: auto;
     width: 21rem;
     padding-right: 1.5rem;
   }
